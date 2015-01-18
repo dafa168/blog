@@ -13,4 +13,4 @@ izhengyin.com 博文列表
 	*  [设计一个简单的聊天室（一）](https://github.com/zhengyin/blog/blob/master/nodejs-chatapp/设计一个简单的聊天室（一）.md)
 	*  [设计一个简单的聊天室（二）](https://github.com/zhengyin/blog/blob/master/nodejs-chatapp/设计一个简单的聊天室（二）.md)
 * [mongodb](https://github.com/zhengyin/blog/blob/master/mongodb)
-	*  [在Yaf中使用Yar](https://github.com/zhengyin/blog/blob/master/mongodb/php操作mongodb笔记.md)
+	*  [php操作mongodb笔记](https://github.com/zhengyin/blog/blob/master/mongodb/php操作mongodb笔记.md)
