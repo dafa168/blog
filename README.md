@@ -9,4 +9,4 @@ izhengyin.com 博文列表
 	*  [php操作mongodb笔记](https://github.com/zhengyin/blog/blob/master/mongodb/php操作mongodb笔记.md)
 
 
-<embed src="http://player.youku.com/player.php/sid/XMTI4NTQzMDE0NA==/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
