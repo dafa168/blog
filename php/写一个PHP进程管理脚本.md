@@ -23,7 +23,9 @@
 
 ###程序代码部分 WorkerAdmin.php
 
+
 ```
+
 	<?php
 	/**
 	 * @date 2015-07-17
@@ -150,11 +152,13 @@
 在同级目录建立一个测试文件： worker.php 代码如下
 
 ```
+
 	<?php
 	while (true){
 		echo date('Y-m-d H:i:s').PHP_EOL;
 		sleep(3);
 	}
+
 ```
 
 如果要对该 Worker 进行管理命令如下:
@@ -168,6 +172,7 @@
 ###修改后的 WorkerAdmin.php
 
 ```
+
 	<?php
 	/**
 	 * @date 2015-07-17
@@ -303,6 +308,7 @@
 		}
 	}
 	WorkerAdmin::main($argv);
+
 ```
 
 下面你就可以通过如下命令管理Worker了:
