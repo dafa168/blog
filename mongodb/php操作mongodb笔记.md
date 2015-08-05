@@ -17,4 +17,6 @@ php操作mongodb笔记
 	$o = new MongoDbCursor();
 	$o->$act();
 
+<!--izhengyin@more-->
+
 目前只更新到游标部分，后续有更新我会继续在此帖补充。

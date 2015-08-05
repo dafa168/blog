@@ -18,7 +18,7 @@ Yar: PHP RPC框架    http://php.net/manual/zh/book.yar.php
 	1.数据传输安全校验
 	2.接口定义
 	3.数据格式
-
+<!--izhengyin@more-->
 本文是我在 Yaf 处理这些问题的一些做法，如果你阅读完本文后有不同想法可以在评论区给我留言。
 
 先贴出目录结构方便后面对应文字描述：

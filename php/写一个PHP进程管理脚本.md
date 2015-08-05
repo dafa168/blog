@@ -1,4 +1,4 @@
-写一个PHP进程管理脚本.md
+写一个PHP进程管理脚本
 ---
 
 进程管理脚本有Shell干嘛非要去折腾个PHP呢，这个问题让我来回答我会这样说。
@@ -18,7 +18,7 @@
 
 	1.PHP执行Shell函数： shell_exec($cmd);  $cmd 就是Shell命令 返回Shell输出流
 	2.直接在PHP脚本中执行Shell: `ps aux | grep worker.php`  返回Shell输出流
-
+<!--izhengyin@more-->
 有了上面这些基础，下面的代码就比较简单了
 
 ###程序代码部分 WorkerAdmin.php
