@@ -1,13 +1,16 @@
 php操作mongodb笔记
 -----
-前段时间买了一本书 《mongodb权威指南》 学习mongodb,做了些笔记，程序这个东西不用很容易就忘了，所以把详细的操作记录下来，以便日后查阅。
+
+
 
 大致把它分为了如下几块记录
-* [Mongodb CURD 操作](https://github.com/zhengyin/blog/blob/master/code/php-mongo/curd.php)
-* [Mongodb 查询](https://github.com/zhengyin/blog/blob/master/code/php-mongo/find.php)
-* [Mongodb 修改器操作](https://github.com/zhengyin/blog/blob/master/code/php-mongo/modify.php)
-* [Mongodb 更多有关更新的内容](https://github.com/zhengyin/blog/blob/master/code/php-mongo/update.php)
-* [Mongodb 游标操作](https://github.com/zhengyin/blog/blob/master/code/php-mongo/cursor.php)
+
+* <a href="https://github.com/zhengyin/blog/blob/master/code/php-mongo/curd.php" target="_blank">Mongodb CURD 操作</a>
+* <a href="https://github.com/zhengyin/blog/blob/master/code/php-mongo/find.php" target="_blank">Mongodb 查询</a>
+* <a href="https://github.com/zhengyin/blog/blob/master/code/php-mongo/modify.php" target="_blank">Mongodb 修改器操作</a>
+* <a href="https://github.com/zhengyin/blog/blob/master/code/php-mongo/update.php" target="_blank">Mongodb 更多有关更新的内容</a>
+* <a href="https://github.com/zhengyin/blog/blob/master/code/php-mongo/cursor.php" target="_blank">Mongodb 游标操作</a>
+
 
 每一个对应一个类文件,你可以点以上链接查看到源码。
 
