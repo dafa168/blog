@@ -5,7 +5,7 @@ Yaf是我很喜欢的一个PHP框架，也是我目前所在公司用的PHP框�
 
 课程列表
 ---
-1.	<a href="http://bbs.houdunwang.com/thread-99589-2-1.html" target="_blank">Yaf介绍</a>
+1.	<a href="http://bbs.houdunwang.com/thread-99589-1-1.html" target="_blank">Yaf介绍</a>
 2.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">使用vagrant 统一开发环境</a>
 3.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf的安装与ide配置</a>
 4.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf的nginx配置</a>
