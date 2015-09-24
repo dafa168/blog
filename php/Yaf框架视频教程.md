@@ -9,6 +9,7 @@ Yaf是我很喜欢的一个PHP框架，也是我目前所在公司用的PHP框�
 2.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">使用vagrant 统一开发环境</a>
 3.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf的安装与ide配置</a>
 4.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf的nginx配置</a>
+<!--izhengyin@more-->
 5.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf运行流程</a>
 6.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf,Bootstarp介绍</a>	
 7.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf配置</a>
