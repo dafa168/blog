@@ -6,23 +6,23 @@ Yaf是我很喜欢的一个PHP框架，也是我目前所在公司用的PHP框�
 课程列表
 ---
 1.	<a href="http://bbs.houdunwang.com/thread-99589-1-1.html" target="_blank">Yaf介绍</a>
-2.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">使用vagrant 统一开发环境</a>
-3.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf的安装与ide配置</a>
-4.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf的nginx配置</a>
+2.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99590-1-1.html" target="_blank">使用vagrant 统一开发环境</a>
+3.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99591-1-1.html" target="_blank">Yaf的安装与ide配置</a>
+4.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99592-1-1.html" target="_blank">Yaf的nginx配置</a>
 <!--izhengyin@more-->
-5.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf运行流程</a>
-6.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf,Bootstarp介绍</a>	
-7.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf配置</a>
-8.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf类库的加载规则</a>
-9.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf模块与控制器</a>
-10.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf路由</a>
-11.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf视图</a>
-12.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf请求与响应</a>
-13.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">Yaf模型的使用</a>
-14.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">使用Yaf过程中，目录结构的划分</a>
-15.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">使用Yaf过程中，保持开发模式的统一</a>
-16.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">在Yaf中定义内网接口，Yar的使用</a>
-17.	<a style="color:#ccc;" href="javascript:void(0);" target="_blank">在Yaf中使用命令行执行PHP</a>
+5.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99593-1-1.html" target="_blank">Yaf运行流程</a>
+6.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99687-1-1.html" target="_blank">Yaf,Bootstarp介绍</a>	
+7.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99696-1-1.html" target="_blank">Yaf配置</a>
+8.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99697-1-1.html" target="_blank">Yaf类库的加载规则</a>
+9.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99698-1-1.html" target="_blank">Yaf模块与控制器</a>
+10.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99699-1-1.html" target="_blank">Yaf路由</a>
+11.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99700-1-1.html" target="_blank">Yaf视图</a>
+12.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99701-1-1.html" target="_blank">Yaf请求与响应</a>
+13.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99702-1-1.html" target="_blank">Yaf模型的使用</a>
+14.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99703-1-1.html" target="_blank">使用Yaf过程中，目录结构的划分</a>
+15.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99854-1-1.html" target="_blank">使用Yaf过程中，保持开发模式的统一</a>
+16.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99875-1-1.html" target="_blank">在Yaf中定义内网接口，Yar的使用</a>
+17.	<a style="color:#ccc;" href="http://bbs.houdunwang.com/thread-99900-1-1.html" target="_blank">在Yaf中使用命令行执行PHP</a>
 
 ###<a style="color:#ccc;" href="javascript:void(0);" target="_blank">下载整套视频教程</a>
 
