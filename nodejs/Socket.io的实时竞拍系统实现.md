@@ -7,6 +7,7 @@
 Nginx也有相应的模块进行服务端的支持：
 
   [HTTP Push Stream](https://www.nginx.com/resources/wiki/modules/push_stream/)
+  
 <!--izhengyin@more-->
 这里我们主要来说说通过Node平台下的Socket.io如何实现，首先来看下具体的业务场景是什么,一个最基本的实时竞拍系统应该包含以下三个场景：
 
