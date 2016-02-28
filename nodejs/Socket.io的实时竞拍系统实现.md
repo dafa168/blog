@@ -32,7 +32,7 @@ Nginx也有相应的模块进行服务端的支持：
 
  (以下均是伪代码,只为说明具体思路)
 
-  ```
+```
 
   var http = require("http");
   http.globalAgent.maxSockets = Infinity;
@@ -88,58 +88,58 @@ Nginx也有相应的模块进行服务端的支持：
 
 
   server.listen(3000,function(){});
-  ```
+```
 
 推送服务实际上起到的是一个中间层的作用，下面看下客户端与服务端如何和它配合：
 
 * 客户端代码
 
-  ```
+```
   <script>
     var socket = io('http://推送服务地址:3000?itemId=100');
     socket.on('auction', function (data) {
           //调用 Dom 更新拍品信息
     });
   </script>
-  ```
+```
 客户端在连接是指明了itemId(假设它是拍品ID),这样在推送服务能够对其进行房间的划分,也就是在 socket.join(socket.room) 的时候。
 
 * 服务端代码(PHP)
 
-  ```
-          
-  	private function http($data){
-                 /** 
-                      $data = array(
-                            'itemId'=>100,            //指明推送拍品
-                            'channel'=>'auction',  //指明推送到的渠道
-                            'message'=>array( )  //最新的拍品信息
-                      );
-                 */
+```
+        
+	private function http($data){
+               /** 
+                    $data = array(
+                          'itemId'=>100,            //指明推送拍品
+                          'channel'=>'auction',  //指明推送到的渠道
+                          'message'=>array( )  //最新的拍品信息
+                    );
+               */
 
-  		$server = $this->getServer();  // http://127.0.0.1:3000/pub
-  		$ch = curl_init();
-  		curl_setopt($ch, CURLOPT_URL, $server);
-  		curl_setopt($ch, CURLOPT_TIMEOUT, 3);
-  		curl_setopt($ch, CURLOPT_POSTFIELDS,http_build_query($data));
-  		curl_setopt($ch, CURLOPT_HEADER, 0);
-  		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-  		$response = curl_exec($ch);
-  		if(curl_errno($ch)){
-  			throw new \Exception('curl_error  '.curl_error($ch));
-  		}else{
-  			if(strtolower($response) == 'ok'){    
-  				curl_close($ch);
-  				return true;
-  			}else{
-  				throw new \Exception('response_error  '.$response);
-  			}
-  		}
-  		curl_close($ch);
-  		return false;
-  	}
+		$server = $this->getServer();  // http://127.0.0.1:3000/pub
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $server);
+		curl_setopt($ch, CURLOPT_TIMEOUT, 3);
+		curl_setopt($ch, CURLOPT_POSTFIELDS,http_build_query($data));
+		curl_setopt($ch, CURLOPT_HEADER, 0);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+		$response = curl_exec($ch);
+		if(curl_errno($ch)){
+			throw new \Exception('curl_error  '.curl_error($ch));
+		}else{
+			if(strtolower($response) == 'ok'){    
+				curl_close($ch);
+				return true;
+			}else{
+				throw new \Exception('response_error  '.$response);
+			}
+		}
+		curl_close($ch);
+		return false;
+	}
 
-  ```
+```
 
 服务端在推送时，调用 "http://127.0.0.1:3000/pub" ，也就是有 koa 搭建的http推送API ，并传入想应格式的数据，指明推送的拍品，渠道，信息。这样在 koa 接受到请求后，调用    ioEmitter.to(room).emit(channel,message);    将信息推送到客户端，这样就走完了一个流程。
 
